@@ -1,3 +1,4 @@
+/* global cuid */
 
 const store = (function () {
   const foo = 'bar';
