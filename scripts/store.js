@@ -1,7 +1,6 @@
 /* global cuid */
 
 const store = (function () {
-  const foo = 'bar';
   return {
     items: [{
       id: cuid(),
@@ -29,4 +28,4 @@ const store = (function () {
   };
   validateName()
 
-});
+})();

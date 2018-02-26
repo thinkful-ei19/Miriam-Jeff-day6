@@ -1,6 +1,6 @@
 const Item = (function(){
 
-    function vname(name){
+    function validateName(name){
         if(!name){
             throw new Error('Name does not exist' )
         }
@@ -19,7 +19,8 @@ const Item = (function(){
     }
     
     return {
-        
+        validateName:validateName,
+        create:create
     } 
 })();
 
