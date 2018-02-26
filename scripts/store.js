@@ -27,6 +27,6 @@ const store = (function () {
     hideCheckedItems: false,
     searchTerm: ''
   };
-
+  validateName()
 
 });
